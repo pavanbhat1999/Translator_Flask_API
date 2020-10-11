@@ -1,0 +1,42 @@
+<html>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}" >
+    <title>INDEX</title>
+    
+</head>
+<body>
+<form class="form" action="{{ url_for("get_options") }}" method="post">
+    
+
+
+    
+    
+    <div>
+        <button name='sub1' type="submit" value="Submit" class="btn1" type="button">Subjective type questions</button> 
+
+
+    </div>
+</form>
+
+    <div>
+
+        <button class="btn2" type="button">Mathematics</button> 
+
+
+
+    </div>
+<form class="form" action="{{ url_for("get_options3") }}" method="post">
+    <div>
+        <button name='sub2' type="submit" value="Submit1" class="btn2" type="button">Results</button> 
+
+    </div>
+    
+
+</form>
+
+
+
+</body>
+
+
+
+</html>

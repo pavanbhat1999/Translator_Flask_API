@@ -1,0 +1,32 @@
+<button type="button" class=”b1″ >
+
+<script>
+
+$(document).ready(function(){
+
+$("b1").click(function(){
+
+$.ajax({
+
+method: "GET",
+
+url: "type your python script path here",
+
+data: {"place" : value},
+
+dataType: "text",
+
+success: function(result){
+
+var data=JSON.parse(result);
+
+console.log(result);
+
+}
+
+});
+
+});
+});
+
+</script>

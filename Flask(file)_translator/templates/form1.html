@@ -1,0 +1,21 @@
+<html>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='form.css') }}" >
+
+       
+<head>
+ <body>
+    <div class="container">
+  {{msg}}
+      <form action = "http://localhost:5000/sub_form" method = "POST" 
+         enctype = "multipart/form-data">
+         <input type = "file" name = "file" />
+         <input type = "submit" />
+     
+     </div> 
+      
+      
+      
+      </form >
+   </body>
+</html>

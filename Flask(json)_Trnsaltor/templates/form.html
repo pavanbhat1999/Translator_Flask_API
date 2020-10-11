@@ -1,0 +1,125 @@
+
+<link rel="stylesheet" href="{{ url_for('static', filename='form.css') }}" >
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<div class="container">
+
+  <header>
+    <h2><a href="http://silfratech.com/#home"><i class="ion-plane"></i> Silfra Technolgies</a></h2>
+    <nav>
+      <ul>
+        <li>
+          <a href="#" title="Option1">Option1</a>
+        </li>
+        <li>
+          <a href="#" title="Option2">Option2</a>
+        </li>
+        <li>
+          <a href="#" title="Option3">Option3</a>
+        </li>
+        <li>
+          <a class="btn" href="#" title="Register / Log In">Register/Log In</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="cover">
+    <h1>Translation at your pointer.</h1>
+
+
+{{msg}}
+    <form  enctype = "multipart/form-data" class="flex-form" action = "http://localhost:5000/sub_form" method = "POST">
+      <label for="from">
+        <i class="ion-location"></i>
+      </label>
+      <input type="file" name="file" placeholder="Input your file">
+      
+      
+      <div class="dropdown">
+      <input class="dropbtn"  value="From Language">
+      <div class="dropdown-content">
+      <select id="lang" name="lang">
+            <option value="english">English</option>
+            <option value="hindi">Hindi</option>
+            <option value="kannada">Kannada</option>
+            <option value="tamil">Tamil</option>
+            <option value="telugu">Telugu</option>
+            <option value="malayalam">Malayalam</option>
+            <option value="gujarati">Gujarati</option>
+            <option value="pa">Punjabi</option>
+     </select>
+     </div>
+     </div> 
+     
+     
+     
+      <div class="dropdown">
+      <input class="dropbtn"  value="To Language">
+      <div class="dropdown-content">
+      <select id="to_lang" name="to_lang">
+            <option value="english">English</option>
+            <option value="hindi">Hindi</option>
+            <option value="kannada">Kannada</option>
+            <option value="tamil">Tamil</option>
+            <option value="telugu">Telugu</option>
+            <option value="malayalam">Malayalam</option>
+            <option value="gujarati">Gujarati</option>
+            <option value="pa">Punjabi</option>
+     </select>
+     </div>
+     </div> 
+      
+     
+      
+      
+      
+      
+      
+      
+      
+      <input type="submit" value="submit">
+    
+    
+    
+ 
+  
+   
+  
+  
+    </form>
+
+
+
+
+
+	
+ 
+     
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="madeby">
+      <span>
+        Designed by Pavan-Bhat
+      </span>
+    </div>
+  </div>
+
+</div>

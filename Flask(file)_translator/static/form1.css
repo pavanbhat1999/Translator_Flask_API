@@ -1,0 +1,26 @@
+body{
+    background-color: skyblue;
+    left: 30%;
+    top: 30%;
+    
+    
+   }
+   
+
+input[type=submit],input[type=file] {
+    background-color: #8842d5;
+    border: none;
+    color: white;
+    padding: 18px 36px;
+    text-decoration: none;
+    margin: 5px 4px;
+    cursor: pointer;  
+}
+div.container{
+position: absolute;
+  top: 400px;
+  left: 600px;
+  width: 800px;
+  height: 400px;
+  
+}}

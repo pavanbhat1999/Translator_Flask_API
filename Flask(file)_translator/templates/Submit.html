@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='Submit.css') }}" >
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+<h1 align=center> File submitted Successfully</h1>
+<form class="form" action="{{ url_for("show_form") }}" method="post">
+    
+
+<button class="btn btn-1 btn-sep icon-book" name="submit" value="original"  >Original File</button>
+<button class="btn btn-2 btn-sep icon-info" name="submit" value="text">Text File</button>
+<button class="btn btn-3 btn-sep icon-clipboard" name="submit" value="transe">Translated File</button>
+<button class="btn btn-4 btn-sep icon-send" name="submit" value="another">Submit another File</button>
+</form>
